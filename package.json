@@ -1,0 +1,45 @@
+{
+  "name": "@padcom/excell-demo",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "Matthias Hryniszak <padcom@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite",
+    "build": "vite build",
+    "build:watch": "vite build -w",
+    "preview": "vite build && vite preview"
+  },
+  "devDependencies": {
+    "@padcom/eslint-config-vue": "^0.6.0",
+    "@padcom/nano-css-reset": "^0.0.1",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vue/tsconfig": "^0.4.0",
+    "@vueuse/core": "^10.4.1",
+    "autoprefixer": "^10.4.15",
+    "typescript": ">= 3.3.0 < 5.2.0",
+    "vite": "^4.4.2",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-svg-loader": "^4.0.0",
+    "vue": "^3.3.4",
+    "vue3-excel-editor": "^1.0.23"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@padcom/eslint-config-vue"
+    ],
+    "ignorePatterns": [
+      "**/*.vue"
+    ]
+  },
+  "homepage": "https://github.com/padcom/excell-demo#readme",
+  "bugs": {
+    "url": "https://github.com/padcom/excell-demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/padcom/excell-demo.git"
+  }
+}

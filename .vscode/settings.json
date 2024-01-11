@@ -1,0 +1,11 @@
+{
+  "cSpell.language": "en,de,pl",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "testing.automaticallyOpenPeekView": "never",
+  "files.associations": {
+      "**/dist/**/*.css": "css",
+      "*.css": "postcss",
+  },
+}
